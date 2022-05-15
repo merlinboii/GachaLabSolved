@@ -16,7 +16,7 @@ block.timestamp, block.number can be predicted, when attacker call execute attac
 we still have a change to attack thought the weak randomness vulnerability.
 
 * Create `GachaAttack` contract, which implement the same random function in `GachaMachine`
-* Run until get a ramdom number < 1 then call Roll by ATTACKER ADDRESS -> have to call in the same block
+* Run until get a ramdom number < 1 then call `roll()` by ATTACKER ADDRESS -> have to call in the same block
 
 ### **Furthemore**
 * Attacker can use this way for attack all of 3 Levels 
