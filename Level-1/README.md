@@ -11,3 +11,6 @@ block.timestamp, block.number can be predicted, when attacker call execute attac
 * Create `GachaAttack` contract, which implement attack function
 * Inside attack function, implement handling error state, which will revert when this contract does not receive Gacha 5 star
 * Run until get a Gacha 5 star and transfer its ownership to ATTACKER
+
+### **Result**
+![level 1](../readme/levelOne.png)

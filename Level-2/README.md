@@ -17,3 +17,6 @@ This `isContract()` (from  `Address.sol`) still have a vulnerability since this 
 * Create `GachaAttack` contract, which implement attack code in `constructor`
 * Inside attack constructor, implement handling error state, which will revert when this contract does not receive Gacha 5 star
 * Deploy until get a Gacha 5 star and transfer its ownership to ATTACKER
+
+### **Result**
+![level 2](../readme/levelTwo.png)

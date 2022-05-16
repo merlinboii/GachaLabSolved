@@ -33,7 +33,7 @@ interface IERC20 {
 
 contract GachaAttack {
 
-        IGachaMachine public gmInstane = IGachaMachine(0x0460ccA088FfEEB4dba624112D5c1CbdF8825e34);
+    IGachaMachine public gmInstane = IGachaMachine(0x0460ccA088FfEEB4dba624112D5c1CbdF8825e34);
     IGachaCapsule public gcInstance = IGachaCapsule(0x1401B8F0316E90B0e864d7FE31c691f2153EB074);
     IERC20 public gtInstance = IERC20(0xbBcFE716824e68140757AF340F3601C3d43Be0fD);
 
